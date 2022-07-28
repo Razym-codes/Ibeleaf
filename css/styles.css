@@ -1,0 +1,185 @@
+body{
+  }
+
+
+
+footer{
+  text-align: center;
+  background-color: #219F94;
+  padding-bottom: 1%;
+}
+
+#title{
+  background-color: #004C36;
+  text-align: center;
+  padding: 3% 7%;
+  color: #DBBA84;
+}
+
+
+
+.container-fluid{
+  background-color: #004C36;
+
+}
+
+.navbar-brand{
+  font-size: 200%;
+}
+
+.navtext{
+  color: #DBBA84;
+}
+
+.navtext:hover{
+  color: #A2B5BB;
+}
+
+.navbar{
+  padding: 0;
+}
+
+.nav-item{
+  padding-left: 1.563rem;
+}
+
+.main-image{
+  position:relative;
+  padding-top: 3.125rem;
+
+}
+.image{
+  width: 30%;
+
+}
+
+.heading{
+  position: absolute;
+  left: 44.5%;
+  bottom: 15.625rem;
+  display: inline;
+}
+
+.caption{
+  position: absolute;
+  display: inline;
+  left: 42%;
+  bottom: 12.5rem;
+
+}
+
+
+.bambooright{
+  width: 32%;
+  position: absolute;
+  right: 0;
+}
+.bamboo{
+  width: 32%;
+  position: absolute;
+  left: 0;
+}
+
+#gallery{
+  background-color: #c4dfaa;
+  padding: 3% 7%;
+  text-align: center;
+}
+
+.gallerypara{
+  font-size: 125%;
+  line-height: 1.5;
+}
+
+.mid-section{
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.gallerydiv{
+  margin: 3.125rem 0;
+}
+
+.gallerytitle{
+  margin-bottom: 0.938rem;
+}
+
+#bootstrapCarousel{
+
+  margin: 3.56rem 0;
+}
+
+.gallerytextwidth{
+  padding: 0.625rem 1.875rem;
+  font-size: 100%;
+  line-height: 2;
+  font-size: 120%;
+
+}
+
+
+#about{
+  font-family: 'Neucha', cursive;
+  font-size: 200%;
+  background-color: #219F94;
+  text-align: center;
+  padding: 3% 7%;
+}
+
+.abouttitle{
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.abouttext{
+  color: #E8E8A6;
+  margin: 40px 0;
+}
+
+#contact{
+  background-color: #219F94;
+  text-align: center;
+  padding: 1% 7% 2%;
+}
+
+.contacts-icon{
+  color: black;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.contacts-icon:hover{
+  color: white;
+  font-size: 120%;
+  transition: .2s;
+}
+
+@media (max-width: 900px) {
+  .navbar-brand{
+    font-size: 200%;
+  }
+
+  .logo{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+  }
+  .main-image{
+    display: none;
+  }
+  .mid-section{
+    display: none;
+  }
+
+}
+
+
+@media (min-width: 901px){
+  .logo{
+    display: none;
+  }
+  #bootstrapCarousel{
+    display: none;
+  }
+
+}
