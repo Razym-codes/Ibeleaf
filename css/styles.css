@@ -25,6 +25,7 @@ footer{
 
 .navbar-brand{
   font-size: 200%;
+  color: #DBBA84;
 }
 
 .navtext{
@@ -158,6 +159,7 @@ footer{
 @media only screen and (max-width: 1080px) {
   .navbar-brand{
     font-size: 500%;
+    color: #DBBA84;
   }
   .navtext{
     font-size: 300%;
