@@ -193,8 +193,11 @@ footer{
     color: #413F42;
   }
   .galleryimg{
-    width: 75%;
+    max-width: 100%;
     height: auto;
+  }
+  h2{
+    font-size: 300%
   }
 
 }
