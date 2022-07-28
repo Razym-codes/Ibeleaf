@@ -154,7 +154,7 @@ footer{
   transition: .2s;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 970px) {
   .navbar-brand{
     font-size: 200%;
   }
@@ -174,7 +174,7 @@ footer{
 }
 
 
-@media (min-width: 901px){
+@media (min-width: 971px){
   .logo{
     display: none;
   }
