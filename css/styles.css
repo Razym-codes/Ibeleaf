@@ -16,6 +16,10 @@ footer{
   color: #DBBA84;
 }
 
+  .logo{
+    display: none;
+  }
+
 
 
 .container-fluid{
@@ -86,6 +90,10 @@ footer{
   text-align: center;
 }
 
+  #bootstrapCarousel{
+    display: none;
+  }
+
 .gallerypara{
   font-size: 125%;
   line-height: 1.5;
@@ -154,7 +162,7 @@ footer{
   transition: .2s;
 }
 
-@media (max-width: 970px) {
+@media only screen and (max-width: 970px) {
   .navbar-brand{
     font-size: 200%;
   }
@@ -174,12 +182,4 @@ footer{
 }
 
 
-@media (min-width: 971px){
-  .logo{
-    display: none;
-  }
-  #bootstrapCarousel{
-    display: none;
-  }
 
-}
