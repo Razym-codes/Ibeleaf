@@ -16,10 +16,6 @@ footer{
   color: #DBBA84;
 }
 
-  .logo{
-    display: none;
-  }
-
 
 
 .container-fluid{
@@ -90,9 +86,6 @@ footer{
   text-align: center;
 }
 
-  #bootstrapCarousel{
-    display: none;
-  }
 
 .gallerypara{
   font-size: 125%;
@@ -164,7 +157,10 @@ footer{
 
 @media only screen and (max-width: 1080px) {
   .navbar-brand{
-    font-size: 200%;
+    font-size: 500%;
+  }
+  .navtext{
+    font-size: 500%;
   }
 
   .logo{
@@ -178,8 +174,26 @@ footer{
   .mid-section{
     display: none;
   }
+  .abouttext{
+    font-size: 300%;
+  }
+  footer{
+    font-size: 200%;
+  }
+  .contacts-icon{
+    font-size: 300%;
+  }
 
 }
 
+@media only screen and (min-width: 1081px){
+  .logo{
+    display: none;
+  }
+  #bootstrapCarousel{
+    display: none;
+  }
+
+}
 
 
