@@ -188,9 +188,13 @@ footer{
   }
   .btn{
     font-size: 350%;
+    border-radius: 15%;
+    border-color: #413F42;
+    color: #413F42;
   }
   .galleryimg{
-    width: 250%;
+    width: 150%;
+    height: auto;
   }
 
 }
